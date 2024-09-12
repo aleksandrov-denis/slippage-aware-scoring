@@ -1,5 +1,6 @@
 from os.path import lexists
 import requests
+import sys
 
 # takes 5 arguments
 # (1) File containing the two sequences to be aligned (FASTA format).
@@ -11,7 +12,7 @@ import requests
 # Should print out the optimal alignment score, and the optimal alignment itself
 
 # Inputs:
-sequences = ["http://www.cs.mcgill.ca/~blanchem/561/hw1_brca1_3utr_small.fa", "http://www.cs.mcgill.ca/~blanchem/561/hw1_brca1_3utr_full.fa"]
+sequences = list(sys.argv[1:])
 match_score = 1
 mismatch_score = -1
 cs = -1

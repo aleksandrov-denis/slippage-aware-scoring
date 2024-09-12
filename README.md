@@ -8,4 +8,4 @@ Responsible for implementing an algorithm that runs in O(mn), where m and n are 
 Outputs the optimal score and alignment of the specified DNA sequences.
 
 # To Run
-Run ```python align.py sequence0.txt sequence1.txt```. Note that you can replace the contents of the two text files, the given files are to illustrate the functionality of the algorithm. 
+Run ```python align.py sequence0.txt [sequence1.txt ...]```. Note that you can replace the contents of the two text files or add new ones, the given files are to illustrate the functionality of the algorithm. 
